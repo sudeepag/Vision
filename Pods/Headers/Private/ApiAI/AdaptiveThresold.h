@@ -1,0 +1,1 @@
+../../../ApiAI/ApiAI/Private/AlgorithmDetector/Algorithms/AdaptiveThresold/AdaptiveThresold.h

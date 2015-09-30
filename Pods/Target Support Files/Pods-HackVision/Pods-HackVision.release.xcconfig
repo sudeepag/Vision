@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CWLSynthesizeSingleton"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AFNetworking.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ApiAI.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/KYShutterButton.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SWXMLHash.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SwiftSpinner.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SwiftyJSON.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CWLSynthesizeSingleton"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "ApiAI" -framework "KYShutterButton" -framework "SWXMLHash" -framework "SwiftSpinner" -framework "SwiftyJSON"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HackVision
+PODS_ROOT = ${SRCROOT}/Pods

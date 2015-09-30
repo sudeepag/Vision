@@ -1,0 +1,1 @@
+../../../ApiAI/ApiAI/Classes/AIConfiguration.h

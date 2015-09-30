@@ -1,0 +1,1 @@
+../../../../ApiAI/ApiAI/Response/Classes/AIResponseMetadata.h
